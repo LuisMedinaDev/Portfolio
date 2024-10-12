@@ -206,7 +206,7 @@
 
 .presentacion-mas-items {
     height: 70%;
-    aspect-ratio: 1/1;
+    width: 7.2rem;
     border-radius: 0.625rem;
     display: flex;
     flex-direction: column;

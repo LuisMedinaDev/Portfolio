@@ -40,7 +40,11 @@ scrollProyectos.addEventListener('mouseout',()=> {
 botonCopiarInfo.forEach(boton => {
     boton.addEventListener('click',(event)=> {
         let texto = event.target.closest('.sobreMi-li').getAttribute('data-info');
-        navigator.clipboard.writeText(texto)
-        alert(`Copiado exitosamente \n ${texto}`);
+
+        if(texto) {
+            navigator.clipboard.writeText(texto)
+            alert(`Copiado exitosamente \n ${texto}`);
+        }
+
     });
 })
