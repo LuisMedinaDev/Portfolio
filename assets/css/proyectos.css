@@ -1,0 +1,326 @@
+.section-proyectos {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-proyectos_contenedor {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    margin: auto;
+    padding-top: 3.125rem;
+    gap: 4rem;
+    width: 100%;
+}
+
+.articles-previsualizacion {
+    height: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.titulo-previsualizacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Previsualizacion {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.previsualizacion-img {
+    padding-top: 1.25rem;
+    height: 35rem;
+    width: 60rem;
+}
+
+.previsualizacion-img-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.9375rem;
+    box-shadow: 0 0 1.875rem 0 rgba(244, 133, 240, 0.7);
+    box-shadow: 0 0 1.25rem 0 rgba(133, 137, 244, 0.22);
+}
+
+.contenedor-previsualizacion-boton {
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+}
+
+.previsualizacion-a-boton {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4375rem;
+    font-weight: 500;
+    transition: 0.15s;
+}
+
+.previsualizacion-a-boton img {
+    height: 2rem;
+}
+
+.previsualizacion-a-boton:nth-child(2) img {
+    height: 0.9688rem;
+}
+
+.previsualizacion-a-boton:hover {
+    color: #7e307e;
+}
+
+.previsualizacion-h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.previsualizacion-p {
+    font-size: 1.2rem;
+    width: 60rem;
+}
+
+.article-proyectos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    width: 28rem;
+}
+
+.proyecto-select {
+    height: 4rem;
+    width: 17rem;
+    border-radius: 0.625rem;
+    font-size: 1.2rem;
+    padding: 0 0.625rem;
+    background-color: rgba(86, 59, 240, 0.48);
+    color: #dfe2ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-proyectos {
+    overflow-y: auto;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.75rem;
+}
+
+.contenedor-article-proyectos {
+    width: 25rem;
+    height: 22rem;
+    padding: 2rem;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000814;
+    
+}
+
+.contenedor-article-proyectos:hover {
+    transform: scale(1.025);
+    transition: 0.3s;
+    background-color: #d4d4d4ec;
+}
+
+.contenedor-article-proyectos:active {
+    transform: scale(0.95);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.article-proyectos_titulo-tecnologias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-proyectos_titulo-tecnologias_div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}
+
+.article-proyectos_list-titulo {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #03142e;
+}
+
+.article-proyectos_list-tecnologias {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(2, 17, 39, 0.79);
+}
+
+.contenedor_article-proyectos_image {
+    width: 100%;
+    height: 70%;
+}
+
+.article-proyectos_image {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.625rem;
+}
+
+.boton-cerrar-modal {
+    display: none;
+}
+
+.modalProyectoBlur {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .section-proyectos {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-block: 3.125rem;
+        padding: 7rem 0;
+    }
+
+    .previsualizacion-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .articles-previsualizacion {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1.5625rem;
+        backdrop-filter: blur(6.25rem);
+        box-shadow: 0 0 0.9375rem 0.3125rem rgba(133, 137, 244, 0.22);
+        background: linear-gradient(90deg, #01021d, #030032);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2.25rem;
+        gap: 1.4375rem;
+        z-index: 9999;
+        display: none;
+    }
+
+    .previsualizacion-img-image {
+        height: 20rem;
+    }
+
+    .Previsualizacion {
+        display: none;
+    }
+
+    .titulo-previsualizacion {
+        width: 90%;
+        margin: auto;
+    }
+
+    .previsualizacion-h2 {
+        font-size: 2rem;
+    }
+
+    .previsualizacion-a-boton {
+        font-size: 1.5rem;
+    }
+
+    .previsualizacion-a-boton img {
+        height: 2.25rem;
+    }
+
+    .previsualizacion-p {
+        text-align: center;
+        font-size: 1.5rem;
+        max-width: 100%;
+    }
+
+    .boton-cerrar-modal {
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #ac9df9;
+        border-radius: 50%;
+        position: absolute;
+        top: -0.5rem;
+        right: -0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    .modalProyectoBlur {
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0.625rem);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9998;
+        display: none;
+    }
+
+    .article-proyectos {
+        min-height: 100vh;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .scroll-proyectos {
+        overflow-y: visible;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .contenedor-article-proyectos {
+        width: 75%;
+        padding: 5.125rem 1.25rem;
+        padding-top: 2.5rem;
+        border-radius: 1rem;
+        min-height: 30rem;
+    }
+
+    .proyecto-select {
+        height: 4.25rem;
+        width: 24.5rem;
+        border-radius: 0.725rem;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contenedor_article-proyectos_image {
+        height: 15.25rem;
+        width: 100%;
+    }
+
+    .article-proyectos_image {
+        height: 18rem;
+    }
+
+    .article-proyectos_list-titulo {
+        font-size: 1.9375rem;
+    }
+
+    .article-proyectos_list-tecnologias {
+        font-size: 1.5rem;
+    }
+}

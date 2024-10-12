@@ -1,0 +1,159 @@
+.section-sobre-mi {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9.375rem;
+    
+}
+.sobreMi-p {
+    margin-block: 2.5rem;
+    font-size: 1.2rem;
+}
+.sobreMi-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+.sobreMi-h2 {
+    font-size: 1.6rem;
+}
+.sobreMi-ul-h2 {
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.sobreMi-li {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 1.2rem;
+}
+
+.sobreMi-li-contenedor {
+    display: grid;
+    place-items: center;
+    width: 2.875rem;
+    height: 2.875rem;
+}
+
+.sobreMi-li-img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.sobreMi-li-img-email {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.sobreMi-info-copiar {
+    width: 2.2rem;
+    height: 2.2rem;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.sobreMi-info-copiar:hover {
+    transform: scale(1.25);
+}
+
+.sobreMi-info-copiar:active {
+    transform: scale(1);
+}
+
+.skills-item-contenedor {
+    height: 32rem;
+    width: 32rem;
+    backdrop-filter: blur(1rem);
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.9375rem 0.3125rem #8589f437;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1.25rem;
+}
+
+.skills-item-contenedor-dos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.skills-item-h2 {
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+
+.skills-item-img {
+    height: 6rem;
+    width: 6rem;
+}
+@media (width <= 768px) {
+    .section-sobre-mi {
+        height: auto;
+        gap: 3.125rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90vw;
+        margin: auto;
+        padding: 3.125rem;
+        overflow: hidden;
+    }
+    .sobreMi {
+        margin-block: 3rem;
+      
+    }
+    .skills-item-contenedor {
+        height: 28.625rem;
+        border-radius: 0.9375rem;
+        gap: 2.5rem;
+        width: 74vw;
+        padding: 1.25rem;
+        backdrop-filter: blur(0);
+    }
+    .skills-item-h2 {
+        font-size: 2.5rem;
+    }
+    .skills-item-img {
+        height: 6.4rem;
+        width: 6.4rem;
+    }
+    .sobreMi-p--movil {
+        display: none;
+    }
+    .sobreMi-p {
+        text-align: center;
+        margin-block: 3.25rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+    }
+    .sobreMi-h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .sobreMi-ul-h2 {
+        display: none;
+    }
+    .sobreMi-li {
+        font-size: 1.7rem;
+    }
+    .sobreMi-li-contenedor{
+      height: 4rem;
+      width: 4rem;
+    }
+    .sobreMi-li-img {
+        width: 2.875rem;
+    }
+    .sobreMi-li-img-email {
+        width: 2.125rem;
+    }
+    .sobreMi-info-copiar {
+        width: 2.125rem;
+    }
+    
+}

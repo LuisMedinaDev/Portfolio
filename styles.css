@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #563bf07b #000;
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(90deg, #000110, #030032);
+    font-family: Poppins;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+p,
+li,
+ul,
+nav,
+h1,
+h2
+    {
+    margin: 0;
+    padding: 0;
+}
+.luz, .luz-2 {
+    position:  fixed;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 1px;
+    box-shadow: 0rem 0rem 300.25rem 20.125rem #40058761;
+    z-index: -1;
+}
+.luz-2 {
+    top: 100%;
+    left: 100%;
+}
+.texto {
+    color: #dfe2ea;
+}
+
+/* .entradas-active {
+    transform: translatey(0);
+    opacity: 1 !important;
+}
+.entradas-active-lados {
+    transform: translatex(0) !important;
+} */
+.image-background  {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/img/hero-trasparente.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.07;
+}
+.image-background-2 {
+    background-image: url(./assets/img/bg-paterns.png);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity:1;
+}
+
+
+.main {
+    width: 75%;
+    margin: auto;
+    
+}
+
+.footer {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0.9375rem 0.3125rem #8589f437;
+    font-size: 1.2rem;
+}
+ @media (width <= 768px) {
+	.image-background-2 {
+display: none;
+}
+} 
