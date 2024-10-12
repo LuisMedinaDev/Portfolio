@@ -40,7 +40,7 @@
     width: 3rem;
     background-color: #563bf07b;
     box-shadow: 0rem 0rem 1.25rem 0.125rem #563bf07b;
-    animation: eyes 10s ease-in infinite reverse;
+    animation: eyes 5s ease-in infinite reverse;
 }
 
 .eyes--left {
