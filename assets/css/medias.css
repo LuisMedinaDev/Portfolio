@@ -1,4 +1,4 @@
-/* 
+
 @media (max-width: 2048px) and (min-width: 1990px) {
     html {
         font-size: 15.6px; 
@@ -747,7 +747,7 @@
     html {
         font-size: 6.3px;
     }
-} */
+} 
 
 html {
     font-size: clamp(12px, 5px, 16px);
