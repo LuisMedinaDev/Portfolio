@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "Portfolio",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "tailwind"
+  }
+}

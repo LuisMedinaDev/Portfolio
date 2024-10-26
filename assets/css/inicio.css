@@ -20,7 +20,7 @@
     height: auto;
     width: 38rem;
     border-radius: 1.5625rem;
-    backdrop-filter: blur(6.25rem);
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 0.9375rem 0.3125rem #8589f437;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@
     display: flex;
     border-radius: 0.625rem;
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(1.875rem);
+   
 
 }
 
@@ -137,7 +137,6 @@
     gap: 1rem;
     border-radius: 1.25rem;
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(1.875rem);
     color: #010915;
     font-size: 1.1rem;
     font-weight: 500;
@@ -195,7 +194,7 @@
 .presentacion-mas {
     height: 9rem;
     width: 100%;
-    backdrop-filter: blur(6.25rem);
+    backdrop-filter: blur(10px);
     border-radius: 1.25rem;
     box-shadow: 0 0 0.9375rem 0.3125rem #8589f437;
     display: flex;
@@ -217,7 +216,6 @@
     cursor: pointer;
 
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(1.875rem);
     color: #010915;
     font-size: 1rem;
     font-weight: 500;
